@@ -1,0 +1,15 @@
+En la parte Web la idea era tener campos para el ingreso de los nombres
+de los jugadores acompañados por un select que proporciona las posiciones 
+de los jugadores, de tal manera de que el usuario no los ingrese manualmente evitando
+inconvenientes.
+
+El proyecto Web fue desarrollado con ReactJs,  webpack ViteJs
+permitiendo así un mejor deploy de forma local y con tailwindCss para la estilización.
+
+->Para hacer deploy de forma local de esta parte del proyecto, basta tener node_modules (NodeJs) con ViteJs, tailwindCss. Estar posicionado en la carpeta web y escribir el siguiente comando en la terminal de vs-code: -> npm run dev
+y se puede acceder mediante el link local que nos proporciona Vite.
+
+Cabe aclarar que la estructura del proyecto puede ser optimizada.
+La relación entre los inputs y los select no se pudo establecer.
+La comunicacion entre Web y Api no esta establecida, por lo que no se podrá generar
+el pdf desde la web.

@@ -14,7 +14,7 @@ function App() {
 
           <section id="titulares">
 
-            <h2 className='p-2 font-bold' >Ingrese los nombres de los 11 titulares:</h2>
+            <h2 className='p-2 font-bold' >Ingrese los nombres de los 11 titulares y sus posiciones</h2>
             <div className='text-center my-2 '>
               <input type="text" name="titular1" className='border-gray-400 border mx-2' />
               <Select />
@@ -64,7 +64,7 @@ function App() {
 
 
           <section id="suplentes" className=''>
-            <h2 className='p-2 font-bold'>Ingrese los nombres de los 7 suplentes:</h2>
+            <h2 className='p-2 font-bold'>Ingrese los nombres de los 7 suplentes y sus posiciones</h2>
             <div className='text-center my-2'>
               <input type="text" name="suplente1" className='border-gray-400 border mx-2' />
               <Select />
@@ -102,18 +102,18 @@ function App() {
             <div className='flex justify-around'>
               <div className='text-center my-2 '>
                 <label htmlFor="dt">Director técnico:
-                  <input type="text" name="dt" className='border-gray-400 border mx-2' />
+                  <input type="text" name="dt" id="dt" className='border-gray-400 border mx-2' />
                 </label>
               </div>
               <div className='text-center my-2 '>
                 <label htmlFor="asist">Asistente técnico:
-                <input type="text" name="asist" className='border-gray-400 border mx-2' />
+                  <input type="text" name="asist" id="asist" className='border-gray-400 border mx-2' />
                 </label>
               </div>
 
               <div className='text-center my-2 '>
-              <label htmlFor="med">Médico:
-                <input type="text" name="med" className='border-gray-400 border mx-2' />
+                <label htmlFor="med">Médico:
+                  <input type="text" name="med" id="med" className='border-gray-400 border mx-2' />
                 </label>
               </div>
             </div>
